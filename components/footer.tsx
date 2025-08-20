@@ -13,8 +13,11 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div>
-              <h3 className="text-2xl font-bold mb-4">Mankol</h3>
-              <p className="text-primary-foreground/80 mb-4">
+              <div className="-mt-40  ">
+                <img src="/relogopng.png" alt=""  className="  w-160 h-100"/>
+              </div>
+
+              <p className="text-primary-foreground/80 mb-4 -mt-30">
                 Your Weekend Paradise - Premium plots and villas in the heart of Gujarat's emerging real estate hub.
               </p>
               <div className="flex space-x-4">

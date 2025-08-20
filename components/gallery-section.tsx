@@ -34,12 +34,12 @@ export function GallerySection() {
       category: "Amenities",
       featured: false,
     },
-    {
-      src: "/5.jpg",
-      alt: "Fitness Center",
-      category: "Amenities",
-      featured: false,
-    },
+    // {
+    //   src: "/5.jpg",
+    //   alt: "Fitness Center",
+    //   category: "Amenities",
+    //   featured: false,
+    // },
     {
       src: "/6.jpg",
       alt: "Villa Interior",
@@ -174,10 +174,10 @@ export function GallerySection() {
               Schedule a private tour to witness the exceptional craftsmanship and attention to detail
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg">
+              {/* <Button className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg">
                 <Play className="w-4 h-4 mr-2" />
                 Virtual Tour
-              </Button>
+              </Button> */}
               <Button
                 variant="outline"
                 className="border-amber-300 text-amber-800 hover:bg-amber-50 px-8 py-3 rounded-full font-semibold bg-transparent"
