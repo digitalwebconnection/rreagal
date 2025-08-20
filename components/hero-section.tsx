@@ -79,7 +79,7 @@ export function HeroSection() {
             <div className="flex items-center space-x-6 text-amber-200">
               <div className="flex items-center">
                 <Shield className="w-4 h-4 mr-2" />
-                <span className="text-lg">RERA Approved</span>
+                <span className="text-lg" >RERA Approved</span>
               </div>
               {/* <div className="flex items-center">
                 <Star className="w-4 h-4 mr-2" />

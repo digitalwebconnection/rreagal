@@ -140,10 +140,12 @@ export default function PrivacyPolicy() {
                     </p>
                     <div className="mt-4 p-4 bg-amber-50 rounded-lg">
                       <p>
-                        <strong>Email:</strong> privacy@mankol.com
+                        <strong>Email:</strong> Nachiketc@rrealtorstudio.com 
+
+
                       </p>
                       <p>
-                        <strong>Phone:</strong> +1 (555) 123-4567
+                        <strong>Phone:</strong> 7211161521
                       </p>
                       <p>
                         <strong>Address:</strong> 123 Privacy Street, Secure City, SC 12345

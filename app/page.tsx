@@ -8,6 +8,7 @@ import { LocationSection } from "@/components/location-section"
 import { InquiryForm } from "@/components/inquiry-form"
 import PrivacyPolicy from "@/components/privacy-policy"
 import { Footer } from "@/components/footer"
+import FloatingWhatsApp from "@/components/FloatingWhatsApp"  // 👈 import here
 
 export default function HomePage() {
   return (
@@ -16,14 +17,17 @@ export default function HomePage() {
       <main>
         <HeroSection />
         <PricingSection />
+        <GallerySection />
         <SitePlanSection />
         <AmenitiesSection />
-        <GallerySection />
         <LocationSection />
         <InquiryForm />
         <PrivacyPolicy />
       </main>
       <Footer />
+
+      {/* 👇 WhatsApp floating button */}
+      <FloatingWhatsApp />
     </div>
   )
 }

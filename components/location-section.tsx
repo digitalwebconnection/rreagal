@@ -75,11 +75,7 @@ export function LocationSection() {
           <div className="order-2 lg:order-1">
             <Card className="overflow-hidden shadow-2xl border-amber-200/50 bg-white/90 backdrop-blur-sm">
               <div className="relative h-96 ">
-                <img
-                  src="/location.jpg"
-                  alt=""
-                  className=" absolute w-full h-full object-cover"
-                />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8843.507851021392!2d72.2651397!3d22.9051058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ebd00617d7803%3A0xaeeb2c1b35b60a66!2sArvind%20Mankol!5e1!3m2!1sen!2sin!4v1755685664235!5m2!1sen!2sin" width="600" height="450"  loading="lazy" className=" absolute w-full h-full object-cover"></iframe>
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div> */}
                 <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg border border-amber-200/50">
                   <div className="flex items-center space-x-2">
