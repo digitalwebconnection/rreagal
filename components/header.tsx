@@ -44,18 +44,8 @@ export function Header() {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button
-              variant="outline"
-              size="sm"
-              className="text-black border-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              Book Site Visit
-            </Button>
-            <Button variant="secondary" size="sm">
-              <Download className="w-4 h-4 mr-2" />
-              Brochure
-            </Button>
+          
+         
           </div>
 
           {/* Mobile menu button */}
@@ -86,18 +76,11 @@ export function Header() {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 px-3 pt-4">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="text-primary-foreground border-primary-foreground bg-transparent"
-                >
-                  <Phone className="w-4 h-4 mr-2" />
-                  Book Site Visit
-                </Button>
-                <Button variant="secondary" size="sm">
+              
+                {/* <Button variant="secondary" size="sm">
                   <Download className="w-4 h-4 mr-2" />
                   Download Brochure
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
