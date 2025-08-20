@@ -11,8 +11,8 @@ export function HeroSection() {
           alt=""
           className=" w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-950/20 via-amber-800/20 to-amber-700/20"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-950/40 via-amber-800/40 to-amber-700/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-amber-900/40 via-transparent to-transparent"></div>
       </div>
 
       <div className="relative z-10 text-white px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -28,11 +28,11 @@ export function HeroSection() {
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Discover Your
-              <span className="block text-black/80 font-serif italic">Dream Paradise</span>
+              <span className="block text-black/80 font-lg italic">Dream Paradise</span>
               {/* <span className="block text-4xl sm:text-5xl lg:text-6xl font-light">at Mankol</span> */}
             </h1>
 
-            <p className="text-xl sm:text-2xl mb-6 text-amber-50 font-light leading-relaxed">
+            <p className="text-xl sm:text-2xl mb-6 text-white font-semibold  leading-relaxed">
               Exclusive collection of premium plots & luxury villas in Mankol's most coveted location
             </p>
 
