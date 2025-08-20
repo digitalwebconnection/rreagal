@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
                         <strong>Phone:</strong> 7211161521
                       </p>
                       <p>
-                        <strong>Address:</strong> 123 Privacy Street, Secure City, SC 12345
+                        <strong>Address:</strong> GJ SH 74, Mankol, Gujarat 382110
                       </p>
                     </div>
                   </div>
